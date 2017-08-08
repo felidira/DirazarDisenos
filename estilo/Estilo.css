@@ -29,8 +29,8 @@ div.titulo {
 
 div.barra {
 	background: linear-gradient(to bottom, rgb(35,83,138) 0%,rgb(110,190,221) 55%,rgb(110,190,221) 55%,rgb(110,190,221) 67%,rgb(110,190,221) 76%,rgb(167,207,223) 100%);
-	height: 1000px;
-	width: 200px; 
+	height: 500px;
+	width: 135px; 
 	border:10px solid rgb(#D7DBC3);
 	border-style: outset;
 	position:absolute;
@@ -41,11 +41,11 @@ div.barra {
 
 div.contenido {
 	border: 5px inset whitesmoke;
-	width: 647px;
+	width: 747px;
 	height:900px;
 	background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(30,87,153,0) 38%,rgba(30,87,153,0) 65%,rgba(30,87,153,0.7) 96%);
 	position:absolute;
-	left: 222px;
+	left: 162px;
 	top:603px;
 	color: white;
 	border-radius:10px;
@@ -71,3 +71,8 @@ div.bot {
 	width:382px;
 }
 
+nav {
+	float:right;
+	color:white;
+	position :absolute;
+}
